@@ -6,6 +6,7 @@ See [Rust community’s crate registry](https://crates.io/crates/covid_cert_uvci
 Following the conclusions of the European Council of 10-11 December 2020 and of 21 January 2021 that called for “a coordinated approach to vaccination certificates”, these guidelines establish a unique identifier for vaccination certificates. This software library parses and verifies the EU Digital COVID Certificate UVCI according to eHealth Network Guidelines on ‘verifiable vaccination certificates - basic interoperability elements’ - Release 2. 
 
 The inclusion of the checksum is optional. The prefix “URN:UVCI:” may be added. Verification is performed by this crate.
+Only for Sweden EHM-issued COVID certificates: Export a vector of EU Digital COVID Certificate UVCIs to **Neo4j Cypher Graph**
 
 
 ## Sample output
@@ -23,3 +24,6 @@ opaque_unique_string  : 123456789ABC
 checksum              : B
 checksum_verification : true
 ```
+
+[![](https://raw.githubusercontent.com/teavuihuang/EU-Digital-COVID-Certificate-UVCI-Parser/main/examples/graph_33.png)](https://raw.githubusercontent.com/teavuihuang/EU-Digital-COVID-Certificate-UVCI-Parser/main/examples/graph_33.png)
+
