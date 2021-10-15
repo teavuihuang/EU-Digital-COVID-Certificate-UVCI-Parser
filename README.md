@@ -11,17 +11,35 @@ Only for Sweden EHM-issued COVID certificates: Export a vector of EU Digital COV
 ## Sample output
 
 ```
-URN:UVCI:01:SE:EHM/C878/123456789ABC#B
+URN:UVCI:01:SE:EHM/V12916227TFJJ#Q
+version                  : 1
+country                  : SE
+schema_option_number     : 3
+schema_option_desc       : some semantics
+issuing_entity           : EHM
+vaccine_id               :
+opaque_unique_string     : V12916227TFJJ
+opaque_id                : V12916227
+opaque_issuance          : TFJJ
+opaque_vaccination_month : 8
+opaque_vaccination_year  : 2021
+checksum                 : Q
+checksum_verification    : true
 
-version               : 1
-country               : SE
-schema_option_number  : 1
-schema_option_desc    : identifier with semantics
-issuing_entity        : EHM
-vaccine_id            : C878
-opaque_unique_string  : 123456789ABC
-checksum              : B
-checksum_verification : true
+URN:UVCI:01:SE:EHM/C878/123456789ABC#B
+version                  : 1
+country                  : SE
+schema_option_number     : 1
+schema_option_desc       : identifier with semantics
+issuing_entity           : EHM
+vaccine_id               : C878
+opaque_unique_string     : 123456789ABC
+opaque_id                : 
+opaque_issuance          : 
+opaque_vaccination_month : 0
+opaque_vaccination_year  : 0
+checksum                 : B
+checksum_verification    : true
 ```
 
 
